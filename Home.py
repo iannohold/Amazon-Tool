@@ -21,9 +21,19 @@ st.markdown("""
 
 Abbiamo riunito i calcolatori in un unico portale sicuro:
 
-* **📄 PDF Extractor:** Trascina o Carica l'Estratto Conto Amazon in PDF per mappare i valori ed salvare i valori nel file Excel AM_XX_XX_Estratto Conto Tab.
-* **📊 Riclassicatore Estratto Conto Amazon:** Trascinna o Carica l'Estratto Conto Tab per ottenere l'analisi riclassificat ed i corrispettivi per l'Italia o l'Estero.
+* **📄 PDF Extractor:** Trascina o Carica l'Estratto Conto Amazon in PDF per mappare i valori e salvarli nel file Excel AM_.._.._Estratto Conto Tab.
+* **📊 Riclassicatore Estratto Conto Amazon:** Trascina o Carica l'Estratto Conto Tab per ottenere la versione riclassificata ed i corrispettivi per l'Italia o l'Estero.
 
 ---
 💡 *Nota sulla privacy: I file che carichi vengono elaborati temporaneamente dalla memoria del tuo browser e distrutti immediatamente dopo l'uso. Nessun dato finanziario viene salvato su internet.*
 """)
+# --- FOOTER ---
+st.markdown("<br><br>", unsafe_allow_html=True)
+st.markdown(
+    """
+    <div style='text-align: center; color: #888; font-size: 14px; margin-top: 20px;'>
+        ⚡ Powered by <b>iannovins</b>
+    </div>
+    """, 
+    unsafe_allow_html=True
+)
