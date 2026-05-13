@@ -453,3 +453,14 @@ if file_caricato:
                 elabora_calcoli(df_importato, ALIQUOTE_IVA.get(m_prefix, Decimal('0.00')), codice_stato, mappa_colori, m_prefix, file_caricato.name)
             except Exception as e:
                 st.error(f"Errore durante la lettura del file: {e}")
+
+# --- FOOTER ---
+st.markdown("<br><br>", unsafe_allow_html=True)
+st.markdown(
+    """
+    <div style='text-align: center; color: #888; font-size: 14px; margin-top: 20px;'>
+        ⚡ Powered by <b>iannovins</b>
+    </div>
+    """, 
+    unsafe_allow_html=True
+)
