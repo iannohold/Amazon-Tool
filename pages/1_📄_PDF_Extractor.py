@@ -417,3 +417,14 @@ if pdf_file:
                 excel_buf = create_styled_excel(final_data, headers, idx_n)
                 st.download_button(f"SCARICA ESTRATTO CONTO TAB 📥", excel_buf.getvalue(), exp_file, "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", on_click=reset_app_state)
             else: st.error("Nessun dato trovato nel PDF.")
+
+# --- FOOTER ---
+st.markdown("<br><br>", unsafe_allow_html=True)
+st.markdown(
+    """
+    <div style='text-align: center; color: #888; font-size: 14px; margin-top: 20px;'>
+        ⚡ Powered by <b>iannovins</b>
+    </div>
+    """, 
+    unsafe_allow_html=True
+)
