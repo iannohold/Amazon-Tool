@@ -19,7 +19,7 @@ st.markdown("---")
 st.markdown("""
 ### 👈 Usa il menù laterale per selezionare un'app.
 
-AbAbbiamo riunito i calcolatori in un unico portale sicuro:
+Abbiamo riunito i calcolatori in un unico portale sicuro:
 
 * **📄 PDF Extractor:** Trascina o Carica l'Estratto Conto Amazon in PDF per mappare i valori ed salvare i valori nel file Excel AM_XX_XX_Estratto Conto Tab.
 * **📊 Riclassicatore Estratto Conto Amazon:** Trascinna o Carica l'Estratto Conto Tab per ottenere l'analisi riclassificat ed i corrispettivi per l'Italia o l'Estero.
